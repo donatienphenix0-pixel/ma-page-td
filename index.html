@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kinshasa, Ma Ville</title>
+<style>
+  body{font-family:Arial,sans-serif;margin:0;background:#f4f4f4;color:#222;text-align:center}
+  header{background:#0f766e;color:white;padding:50px 20px}
+  header h1{margin:0;font-size:32px}
+  section{background:white;margin:20px;padding:25px;border-radius:15px}
+  .card{display:inline-block;background:#e0f2fe;padding:15px 20px;margin:10px;border-radius:10px}
+  button{background:#0f766e;color:white;border:none;padding:12px 20px;border-radius:20px;font-size:16px}
+</style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenue à Kinshasa 🇨🇩</h1>
+    <p>Ma première page web - créée par moi-même pour le TD</p>
+  </header>
+  <section>
+    <h2>Pourquoi j'ai choisi ce sujet ?</h2>
+    <p>Kinshasa est ma ville, une ville vivante, culturelle et pleine d'énergie.</p>
+    <div class="card">🎵 Musique</div>
+    <div class="card">🍲 Cuisine</div>
+    <div class="card">🏙️ Culture</div>
+  </section>
+  <section>
+    <h2>Découvrir</h2>
+    <p>Clique sur le bouton pour afficher un message :</p>
+    <button onclick="document.getElementById('msg').innerText='Merci d’avoir visité ma page !'">Clique ici</button>
+    <p id="msg"></p>
+  </section>
+  <footer><p>© 2026 - Donatien - TD Web</p></footer>
+</body>
+</html>
